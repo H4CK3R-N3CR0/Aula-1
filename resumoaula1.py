@@ -1,4 +1,4 @@
-from colorama import Back, Style, Ansi, Fore
+from colorama import Back, Style, Fore
 print(Fore.GREEN + """Resumo sobre a aula 1.
 
 Quem são os hackers?
@@ -21,7 +21,7 @@ Tipos de Hackers:
     Podem tanto ajudar quanto prejudicar, dependendo da situação.
     
 Tipos de Hackers por Títulos em areas especificas:""")
-print(Fore.Yellow + """
+print(Fore.YELLOW + """
 Pentesters: Testam a segurança de sistemas e aplicações.
 Phishers: Cria e mantém páginas falsas para obter informações confidenciais.
 Crackers: Quebram senhas e sistemas de segurança.
